@@ -23,7 +23,7 @@ A hora em que te cumprimentamos.
 
 uses: actions/hello-world-docker-action@v1
 with:
-   who-to-greet: TEste Docker
+   who-to-greet: Carlos Oliveira
    
    ==========================
 
