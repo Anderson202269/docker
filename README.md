@@ -11,7 +11,7 @@ Esta ação imprime "Hello World" ou "Hello" + o nome de uma pessoa para saudar 
 
 ### `quem cumprimentar`
 
-**Obrigatório** O nome da pessoa a ser cumprimentada. Padrão `"Mundo"`.
+**Obrigatório** O nome da pessoa a ser cumprimentada. Padrão `"Mundo."`.
 
 ## Saídas
 
