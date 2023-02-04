@@ -34,3 +34,14 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+            steps:
+      - name: Hello world action step
+        id: hello
+        uses: actions/hello-world-docker-action@v1
+        with:
+          who-to-greet: Teste 1
+      # Use the output from the `hello` step
+      - name: Get the output time
+        run: echo "A hora capturada foi ${{ steps.hello.outputs.time }}"
+
